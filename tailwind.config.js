@@ -10,6 +10,9 @@ module.exports = {
     },
   },
   plugins: [require('daisyui')],
+  daisyui: {
+    themes: ["light"],
+  },
   variants: {},
   corePlugins: {
     preflight: true,
